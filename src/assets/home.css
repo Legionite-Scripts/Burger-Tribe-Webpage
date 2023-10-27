@@ -1,5 +1,5 @@
 #home {
-  height: 32em;
+  height: 100vh;
   background: linear-gradient(to bottom right, #131313, #131313, #242424);
   overflow-y: auto;
   overflow-x: hidden !important;

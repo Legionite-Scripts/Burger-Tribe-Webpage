@@ -1,0 +1,123 @@
+#pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80em;
+  background-color: #ffffff;
+}
+#burgers-on-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 15em;
+  /* border: 2px solid red; */
+}
+#burgers-on-table img {
+  width: 30%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+#forYou {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#forYou h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #0a0909;
+}
+#foryou-p {
+  font-size: 1em;
+  font-weight: 300;
+  color: #0a0909;
+}
+#burgerPrices {
+  height: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#col {
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#col img {
+  width: 8em;
+  height: 8em;
+  -webkit-user-drag: none;
+}
+#col #colInner {
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#col #colInner h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #0a0909;
+}
+#col #colInner #price {
+  color: #e42c19;
+  font-style: italic;
+}
+#col p {
+  color: #0a0909;
+}
+
+@media (max-width: 768px) {
+  #pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250em;
+  }
+  #burgers-on-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60em;
+  }
+  #burgers-on-table img {
+    width: 90%;
+    height: 15em;
+    -webkit-user-drag: none;
+  }
+  #forYou {
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #forYou h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #0a0909;
+  }
+  #foryou-p {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #0a0909;
+  }
+  #burgerPrices {
+    height: 170em;
+    display: flex;
+    flex-direction: column;
+  }
+  #row {
+    height: 60em;
+  }
+}

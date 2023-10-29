@@ -139,6 +139,7 @@ export const Pages = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing..</p>
           </Col>
         </Row>
+        <button id="seeMoreBtn">See More</button>
       </Container>
     </Container>
   );

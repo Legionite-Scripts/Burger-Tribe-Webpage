@@ -48,9 +48,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: none;
+  border-radius:.4em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   #features {
     height: 70em;
     display: flex;

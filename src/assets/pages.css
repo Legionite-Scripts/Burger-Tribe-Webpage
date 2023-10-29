@@ -12,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   height: 15em;
-  /* border: 2px solid red; */
 }
 #burgers-on-table img {
   width: 30%;
@@ -74,6 +73,14 @@
 #col p {
   color: #0a0909;
 }
+#seeMoreBtn {
+  background-color: #e42c19;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.4em;
+  width: 8em;
+  height: 3em;
+}
 
 @media (max-width: 768px) {
   #pages {
@@ -81,7 +88,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 250em;
+    height: 210em;
   }
   #burgers-on-table {
     display: flex;
@@ -113,11 +120,66 @@
     color: #0a0909;
   }
   #burgerPrices {
-    height: 170em;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
   #row {
-    height: 60em;
+    height: auto;
+  }
+}
+
+/* Screens lower than 1000px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160em;
+  }
+  #burgers-on-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80em;
+  }
+  #burgers-on-table img {
+    width: 23em;
+    height: 23em;
+    -webkit-user-drag: none;
+  }
+  #forYou {
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #forYou h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #0a0909;
+  }
+  #foryou-p {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #0a0909;
+  }
+  #burgerPrices {
+    height: 80em;
+    display: flex;
+    flex-direction: column;
+  }
+  #row {
+    height: auto;
+  }
+  #seeMoreBtn {
+    background-color: #e42c19;
+    color: #ffffff;
+    width: 10em;
+    height: 3em;
+    font-size: 1.2em;
   }
 }

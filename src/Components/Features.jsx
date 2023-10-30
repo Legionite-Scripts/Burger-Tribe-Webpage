@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import featuresBurgerImage from "./Images/image5.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Features = () => {
   return (
@@ -9,7 +11,7 @@ export const Features = () => {
       <Container id="featuresImageDiv">
         <img src={featuresBurgerImage} alt="" />
       </Container>
-      <Container id="featuresTextDiv">
+      <Container id="featuresTextDiv" data-aos="fade-left">
         <div id="specialOffer">
           <p>Special Offer</p>
         </div>

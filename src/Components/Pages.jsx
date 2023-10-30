@@ -45,7 +45,7 @@ export const Pages = () => {
           <Col md={4} id="col">
             <img src={imageOne} alt="Inner burger image" />
             <Container id="colInner">
-              <h1 className="display-6">BEEF BURGER</h1>
+              <h1 className="display-6">CHEESE BURGER</h1>
               <h1 className="display-6" id="price">
                 $5.99
               </h1>
@@ -55,7 +55,7 @@ export const Pages = () => {
           <Col md={4} id="col">
             <img src={imageTwo} alt="Inner burger image" />
             <Container id="colInner">
-              <h1 className="display-6">BEEF BURGER</h1>
+              <h1 className="display-6">HAM BURGER</h1>
               <h1 className="display-6" id="price">
                 $5.99
               </h1>
@@ -65,7 +65,7 @@ export const Pages = () => {
           <Col md={4} id="col">
             <img src={imageThree} alt="Inner burger image" />
             <Container id="colInner">
-              <h1 className="display-6">BEEF BURGER</h1>
+              <h1 className="display-6">PORK BURGER</h1>
               <h1 className="display-6" id="price">
                 $5.99
               </h1>
@@ -78,7 +78,7 @@ export const Pages = () => {
           <Col md={4} id="col">
             <img src={imageFour} alt="Inner burger image" />
             <Container id="colInner">
-              <h1 className="display-6">BEEF BURGER</h1>
+              <h1 className="display-6">MUTTON BURGER</h1>
               <h1 className="display-6" id="price">
                 $5.99
               </h1>
@@ -98,7 +98,7 @@ export const Pages = () => {
           <Col md={4} id="col">
             <img src={imageOne} alt="Inner burger image" />
             <Container id="colInner">
-              <h1 className="display-6">BEEF BURGER</h1>
+              <h1 className="display-6">HAM BURGER</h1>
               <h1 className="display-6" id="price">
                 $5.99
               </h1>

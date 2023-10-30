@@ -22,16 +22,16 @@ export const Navigationbar = () => {
           <Link to="/" id="link">
             Home
           </Link>
-          <Link to="/about" id="link">
+          <Link to="/features" id="link">
             Features
           </Link>
-          <Link to="/product" id="link">
+          <Link to="/pages" id="link">
             Pages
           </Link>
-          <Link to="/testimonial" id="link">
+          <Link to="/portfolio" id="link">
             Portfolio
           </Link>
-          <Link to="/testimonial" id="link">
+          <Link to="/contact" id="link">
             Contact Us
           </Link>
 

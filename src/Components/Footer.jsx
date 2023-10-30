@@ -57,9 +57,17 @@ export const Footer = () => {
       </Container>
       <hr />
       <p id="details">
-        Developer : <a href="https://legionites-portfolio.netlify.app" target="blank">Legionite</a>
+        Developer :{" "}
+        <a href="https://legionites-portfolio.netlify.app" target="blank">
+          Legionite
+        </a>
       </p>
-      <p id="details">Figma Designer : <a href="https://wa.me/+2348023727364" target="blank">Emily</a></p>
+      <p id="details">
+        Figma Designer :{" "}
+        <a href="https://wa.me/+2348023727364" target="blank">
+          Emily
+        </a>
+      </p>
     </Container>
   );
 };

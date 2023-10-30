@@ -19,6 +19,13 @@ function App() {
   return (
     <>
       <Navigationbar />
+      <Routes>
+        {/* <Route path="/" element={<Home />}></Route> */}
+        <Route path="features" element={<Features />}></Route>
+        <Route path="pages" element={<Pages />}></Route>
+        <Route path="portfolio" element={<Portfolio />}></Route>
+        <Route path="contact" element={<Contact />}></Route>
+      </Routes>
       <Home />
       <Features />
       <Pages />
@@ -26,12 +33,6 @@ function App() {
       <Contact />
       <Map />
       <Footer />
-      <Routes>
-        {/* <Route path="/" element={<Homepage />}></Route> */}
-        {/* <Route path="about" element={<About />}></Route>
-        <Route path="product" element={<Product />}></Route>
-        <Route path="testimonial" element={<Testimonial />}></Route> */}
-      </Routes>
     </>
   );
 }

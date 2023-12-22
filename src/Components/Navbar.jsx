@@ -19,21 +19,19 @@ export const Navigationbar = () => {
             <img src={logo} alt="logoImage" id="logoImage" />
             Burger Tribe
           </Navbar.Brand>
-          <Link to="/" id="link">
+          <a href="#home" id="link">
             Home
-          </Link>
-          <Link to="/features" id="link">
-            Features
-          </Link>
-          <Link to="/pages" id="link">
+          </a>
+          <a href="#features" id="link">Features</a>
+          <a href="#pages" id="link">
             Pages
-          </Link>
-          <Link to="/portfolio" id="link">
+          </a>
+          <a href="#portfolio" id="link">
             Portfolio
-          </Link>
-          <Link to="/contact" id="link">
+          </a>
+          <a href="#contact" id="link">
             Contact Us
-          </Link>
+          </a>
 
           <div id="icons">
             <i class="fa-brands fa-twitter"></i>

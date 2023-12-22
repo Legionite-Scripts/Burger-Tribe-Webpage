@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect, useRef } from "react";
-import Typed from "typed.js";
+import Typed from "typed.js"; //For typing effect
 import { Container } from "react-bootstrap";
 import homeBurgerImage from "./Images/image3.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AOS from "aos"; //Import Animation On Scroll
+import "aos/dist/aos.css"; //Import AOS css file
 
 export const Home = () => {
   useEffect(() => {

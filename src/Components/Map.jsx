@@ -9,7 +9,7 @@ export const Map = () => {
       <MapContainer
         center={[6.5044347814424555, 3.086884701631786]}
         zoom={13}
-        style={{ height: "400px", width: "100%" }}
+        id="map"
       >
         <TileLayer
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Navigationbar } from "./Components/Navbar";
 import { Home } from "./Components/Home";
 import { Features } from "./Components/Features";
@@ -15,25 +14,12 @@ import "./assets/pages.css";
 import "./assets/portfolio.css";
 import "./assets/contact.css";
 import "./assets/footer.css";
+import "./assets/map.css";
 
 function App() {
   return (
-    <Router>
-      <Navigationbar />
-      <Routes>
-        <Route path="/" element={<DefaultPage />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/pages" element={<Pages />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
-  );
-}
-
-function DefaultPage() {
-  return (
-    <>
+    <div className="App">
+      <Navigationbar/>
       <Home />
       <Features />
       <Pages />
@@ -41,10 +27,9 @@ function DefaultPage() {
       <Contact />
       <Map />
       <Footer />
-    </>
+    </div>
   );
 }
-
 
 
 export default App;

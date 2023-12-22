@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Import Bootstrap JS for sidenav
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import logo from "./Images/image2.png";
 
 export const Navigationbar = () => {
